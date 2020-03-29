@@ -1,0 +1,10 @@
+@import "../styles/variables";
+
+.main-content {
+  width: 108rem;
+  margin: auto;
+  margin-top: 20px;
+  background-color: $color-grey-light-3;
+  display: flex;
+  min-height: 50vh;
+}

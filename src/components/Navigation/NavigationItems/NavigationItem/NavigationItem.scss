@@ -1,0 +1,14 @@
+@import "../../../../styles/variables";
+.navigation-item {
+  a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #333;
+    &:hover {
+      color: $color-secondary;
+    }
+    &.active {
+      color: $color-primary;
+    }
+  }
+}

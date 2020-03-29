@@ -1,0 +1,23 @@
+@import "../../../../../styles/variables";
+.hierarchy-node {
+  font-weight: normal;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.25s;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  &__name {
+    color: #555;
+  }
+  &__name--active {
+    color: #ffffff;
+    background-color: $color-primary;
+  }
+
+  &__child {
+    margin-left: 1rem;
+    list-style: none;
+  }
+}
